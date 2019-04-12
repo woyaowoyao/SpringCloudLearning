@@ -4,9 +4,9 @@ spring:
   application:
      name: config-jdbc-server
   datasource:
-     url: jdbc:mysql://127.0.0.1:3306/config-jdbc?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8
+     url: jdbc:mysql://localhost:3306/usercenter?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8
      username: root
-     password: 123456
+     password: password
      driver-class-name: com.mysql.jdbc.Driver
   cloud:
      config:
